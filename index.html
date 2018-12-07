@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Nomoogle</title>
+    <script src="js/jquery.js"></script>
+    <script src="js/handlebar.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="img/nomoogle.png" alt="">
+        </div>
+        <div class="title">
+            Nomoogle !!
+        </div>
+    </div>
+    <div class="current-site">
+    </div>
+
+    <div class="alternatives">
+
+    </div>
+    <script id="handlebars-alternative" type="text/x-handlebars-template">
+        {{#each data}}
+            <div class="alternative">
+                <div class="alt-logo">
+                    <img src="{{logoUrl}}" alt="">
+                </div>
+                <div class="alt-title">
+                    <p>{{name}}</p>
+                </div>
+            </div>   
+        {{/each}}
+    </script>
+
+    <script id="handlebars-title" type="text/x-handlebars-template">
+        <div class="current-text">Current Site:</div>
+        <div class="site-name">{{title}}</div>
+    </script>
+    <script src="js/handle.js"></script>
+</body>
+
+</html>

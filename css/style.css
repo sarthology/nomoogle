@@ -1,0 +1,57 @@
+body{
+    width: 300px;
+    height: 400px;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.logo img{
+    width: 35px;
+    padding: 5px;
+    margin-left: 55px;
+}
+
+.title{
+    font-size: 25px;
+    padding: 10px 0px;
+    font-weight: 100;
+}
+
+.alternatives{
+    margin-top: 20px;
+}
+
+.alternative {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-size: 20px;
+    border: 1px solid #e3e3e3;
+    margin-bottom: 2px;
+    font-weight: 100;
+    cursor: pointer;
+    transition: 1s background ease;
+}
+.alt-logo img{
+    width: 50px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.alternative:hover{
+    background: #ddf2fd
+}
+.current-site {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    border: 1px solid #e3e3e3;
+    padding: 10px;
+}
+
+.current-text{
+    color: #E91E63;
+}
+.site-name{
+    font-weight: 100;
+}
