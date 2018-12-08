@@ -21,7 +21,6 @@
             "logoUrl":"https://logo.clearbit.com/searx.me"
         }
     ],
-
     "googleChrome":[
         {
             "name":"Firefox",
@@ -44,7 +43,6 @@
             "logoUrl":"https://logo.clearbit.com/www.apple.com"
         }
     ],
-
     "googleAnalytics":[
         {
             "name":"Simple Analytics ",
@@ -67,7 +65,6 @@
             "logoUrl":"https://logo.clearbit.com/amplitude.com"
         }
     ],
-
     "googleChromePasswords":[
         {
             "name":"1Password",
@@ -200,7 +197,6 @@
             "logoUrl":"https://logo.clearbit.com/www.nextzen.org"
         }
     ],
-
     "googleAdWords":[
         {
             "name":"BuySellAds",
@@ -208,7 +204,6 @@
             "logoUrl":"https://logo.clearbit.com/buysellads.com"
         }
     ],
-
     "googleAuthenticator":[
         {
             "name":"Authy",
@@ -231,7 +226,6 @@
             "logoUrl":"https://logo.clearbit.com/1password.com"
         }
     ],
-
     "googleBlogger":[
         {
             "name":"Ghost",
@@ -254,8 +248,6 @@
             "logoUrl":"https://logo.clearbit.com/www.squarespace.com"
         }
     ],
-
-
     "googleDNS":[
         {
             "name":"Cloudflare",
@@ -273,7 +265,6 @@
             "logoUrl":"https://logo.clearbit.com/www.quad9.net"
         }
     ],
-
     "googleDrive":[
         {
             "name":"Dropbox",
@@ -296,7 +287,6 @@
             "logoUrl":"https://logo.clearbit.com/mega.nz"
         }
     ],
-
     "googleFinance":[
         {
             "name":"Bravos",
@@ -304,7 +294,6 @@
             "logoUrl":"https://logo.clearbit.com/bravos.co"
         }
     ],
-
     "googleFlights":[
         {
             "name":"Skyscanner",
@@ -327,7 +316,6 @@
             "logoUrl":"https://logo.clearbit.com/www.hipmunk.com"
         }
     ],
-
     "googleHangouts":[
         {
             "name":"Telegram",
@@ -350,7 +338,6 @@
             "logoUrl":"https://logo.clearbit.com/wire.com"
         }
     ],
-
     "googleImages":[
         {
             "name":"Unsplash",
@@ -385,8 +372,6 @@
             "logoUrl":"https://logo.clearbit.com/wego.here.com"
         }
     ],
-
-
     "googlePoly":[
         {
             "name":"Sketchfab",
@@ -399,7 +384,6 @@
             "logoUrl":"https://logo.clearbit.com/turbosquid.com"
         }
     ],
-
     "googleScholar":[
         {
             "name":"arXiv",
@@ -407,7 +391,6 @@
             "logoUrl":"https://logo.clearbit.com/arxiv.org"
         }
     ],
-
     "googleTranslate":[
         {
             "name":"WordReference",

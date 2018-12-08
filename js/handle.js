@@ -1,28 +1,13 @@
-$.getJSON("../data/data.json").then(function(data){
-    
-    chrome.tabs.query({'active': true, 'lastFocusedWindow': true,}, function (tabs) {
-        
-        let currentSite = tabs[0].title;
-        let regx = /(https?:\/\/(.+?\.)?google(\/[A-Za-z0-9\-\._~:\/\?#\[\]@!$&'\(\)\*\+,;\=]*)?)/
-
-        if(regx.test(tabs[0].url)){
-            if(currentSite.indexOf("Google Search") > -1){   
-                renderTitle("Google Search");      
-                renderData(data.googleSearch);
-            }
-            if(currentSite.indexOf("Google Maps") > -1){   
-                renderTitle("Google Maps");       
-                renderData(data.googleMaps);
-            }
-            if(currentSite.indexOf("Google Scholar") > -1){   
-                renderTitle("Google Scholar");       
-                renderData(data.googleScholar);
-            }
+chrome.tabs.query({'active': true, 'lastFocusedWindow': true,}, function (tabs) {
+    chrome.runtime.sendMessage(tabs[0], function(response) {
+        if(response){
+            renderTitle(response.title);
+            renderData(response.data);
         }
-        
-    });
-    
-})
+      });
+});
+
+
 
 function renderData(data){
 

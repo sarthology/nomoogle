@@ -10,11 +10,15 @@
     "default_title": "Open the popup"
   },
   "permissions": [
-    "tabs"
+    "tabs",
+    "background"
   ],
   "web_accessible_resources": [
     "css/content.css"
   ],
+  "background": {
+    "scripts": ["js/jquery.js","js/background.js"]
+  },
   "icons": {
     "16": "img/nomoogle.png",
     "48": "img/nomoogle.png",

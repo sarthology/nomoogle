@@ -23,7 +23,9 @@
     font-size: xx-large;
     font-family: fantasy;
 }
-
+.extraInfo{
+    text-align: center;
+}
 .closeButton{
         position: absolute;
         top: -10px;
