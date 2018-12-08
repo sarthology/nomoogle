@@ -1,0 +1,38 @@
+.stopMessage {
+    position: fixed;
+    width: 50%;
+    border: 1px solid #e3e3e3;
+    z-index: 1000;
+    left: 25%;
+    top: 15%;
+    padding: 10px;
+    background: white;
+
+}
+.shallNotPass{
+    margin: 20px auto;
+    width: 500px;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('https://thumbs.gfycat.com/AstonishingEsteemedCockroach-size_restricted.gif');
+}
+.messageText{
+    text-align: center;
+    margin: 35px 0px;
+    font-size: xx-large;
+    font-family: fantasy;
+}
+
+.closeButton{
+        position: absolute;
+        top: -10px;
+        right: 20px;
+        font-size: 20px;
+        font-family: sans-serif;
+        transition: color 1s;
+        cursor: pointer;
+}
+.closeButton:hover{
+    color:rgb(162, 160, 160);
+}
