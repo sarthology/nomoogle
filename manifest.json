@@ -11,7 +11,8 @@
   },
   "permissions": [
     "tabs",
-    "background"
+    "background",
+    "storage"
   ],
   "options_ui": {
     "page": "options.html",
