@@ -32,5 +32,5 @@ function renderTitle(data){
         
     var html = templateScript(context);
     
-    $(".current-site").append(html);
+    $(".message").html(html);
 }

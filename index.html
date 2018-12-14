@@ -20,12 +20,14 @@
             Nomoogle !!
         </div>
     </div>
-    <div class="current-site">
+    <div class="message">
+        <h1>No Google Here 😃</h1>
     </div>
 
     <div class="alternatives">
 
     </div>
+
     <script id="handlebars-alternative" type="text/x-handlebars-template">
         {{#each data}}
             <div class="alternative">
@@ -38,10 +40,11 @@
             </div>   
         {{/each}}
     </script>
-
     <script id="handlebars-title" type="text/x-handlebars-template">
-        <div class="current-text">Current Site:</div>
-        <div class="site-name">{{title}}</div>
+        <div class="current-site">
+            <div class="current-text">Current Site:</div>
+            <div class="site-name">{{title}}</div>
+        </div>
     </script>
     <script src="js/handle.js"></script>
 </body>

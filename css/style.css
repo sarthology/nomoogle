@@ -1,12 +1,20 @@
 body{
     width: 300px;
-    height: 400px;
+    height: 100px;
 }
 
 .header{
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
+.message{
+    text-align: center;
+}
+
+.message h1{
+    font-weight: 100;
+}
+
 .logo img{
     width: 35px;
     padding: 5px;
@@ -44,6 +52,7 @@ body{
 .current-site {
     margin-top: 20px;
     display: grid;
+    text-align: left;
     grid-template-columns: 1fr 2.5fr;
     border: 1px solid #e3e3e3;
     padding: 10px;
