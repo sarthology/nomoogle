@@ -8,7 +8,10 @@ chrome.tabs.query({'active': true, 'lastFocusedWindow': true,}, function (tabs) 
 });
 
 
-
+function openLink(url) {
+    chrome.tabs.create({ url: url });
+  }
+  
 function renderData(data){
 
     var template = $('#handlebars-alternative').html(); 
