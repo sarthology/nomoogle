@@ -26,6 +26,7 @@
     "48": "img/nomoogle.png",
     "128": "img/nomoogle.png"
   },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
   "content_scripts": [{
     "matches": ["http://*/*", "https://*/*"],
     "js": ["js/jquery.js", "js/content.js"],
