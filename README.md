@@ -4,7 +4,13 @@
 ## Nomoogle
  A simple Chrome extension that can help you get rid of Google addiction.
 
-[Download Here](data/nomoogle.crx)
+## Installation
+1. Clone or Download the repo.
+2. Go to Extension settings
+3. Enable Developers Mode
+![](https://i.imgur.com/k1Y0n1Z.png)
+4. Click on "Load Unpackaged" and the folder you downloaded.
+![](https://i.imgur.com/REbf1o9.png)
 
 ## Features
 
