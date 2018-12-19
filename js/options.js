@@ -1,13 +1,15 @@
 $("#enableRedirects").click((e)=>{ 
     $("#enableStrictMode").prop('checked',false);
     chrome.storage.sync.set({
-        redirectEnabled: e.currentTarget.checked
+        redirectEnabled: e.currentTarget.checked,
+        strictModeEnabled: false
       });    
 })
 
 $("#enableStrictMode").click((e)=>{   
     $("#enableRedirects").prop('checked',false);     
     chrome.storage.sync.set({
+        redirectEnabled: false,
         strictModeEnabled: e.currentTarget.checked
       });    
 })

@@ -4,6 +4,7 @@
 ## Nomoogle
  A simple Chrome extension that can help you get rid of Google addiction.
 
+> For firefox extension check this repo : [nomoogle-firefox](https://github.com/sarthology/nomoogle-firefox)
 ## Installation
 1. Clone or Download the repo.
 2. Go to Extension settings
