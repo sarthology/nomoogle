@@ -38,7 +38,7 @@
  **Redirects**: Automatically redirects the page to popular alternative.
 
  ## Thanks to
- ❤️ Special thanks to [@levelsio](https://twitter.com/levelsio). 🙅‍♀️ [Nomoregoogle](nomoregoogle.com) was an inspiration for this.
+ ❤️ Special thanks to [@levelsio](https://twitter.com/levelsio). 🙅‍♀️ [Nomoregoogle](https://nomoregoogle.com) was an inspiration for this.
 
  ## License
  MIT License
