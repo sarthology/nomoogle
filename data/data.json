@@ -513,5 +513,32 @@
                 "logoUrl": "https://logo.clearbit.com/www.quad9.net"
             }
         ]
+    },
+    {
+        "title": "Google Play Store",
+        "url": "https://play.google.com/store",
+        "alternatives": [
+            {
+                "name": "F-Droid",
+                "url": "https://f-droid.org/",
+                "logoUrl": "https://logo.clearbit.com/f-droid.org"
+            }
+        ]
+    },
+    {
+        "title": "Google News",
+        "url": "https://news.google.com",
+        "alternatives": [
+            {
+                "name": "Associated Press",
+                "url": "https://apnews.com/",
+                "logoUrl": "https://logo.clearbit.com/apnews.com"
+            },
+            {
+                "name": "Reuters",
+                "url": "https://www.reuters.com/",
+                "logoUrl": "https://logo.clearbit.com/reuters.com"
+            }
+        ]
     }
 ]
