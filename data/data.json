@@ -420,6 +420,22 @@
         ]
     },
     {
+        "title": "Google Keep",
+        "url": "https://keep.google.com",
+        "alternatives": [
+            {
+                "name": "Notion",
+                "url": "https://www.notion.so/",
+                "logoUrl": ""
+            },
+            {
+                "name": "Taskade",
+                "url": "https://www.taskade.com",
+                "logoUrl": "https://www.taskade.com/images/logo.svg"
+            }
+        ]
+    },
+    {
         "title": "Poly",
         "url": "https://poly.google.com/",
         "alternatives": [
